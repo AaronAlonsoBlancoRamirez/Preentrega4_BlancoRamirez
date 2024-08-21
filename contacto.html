@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar" id="barra">
+            <img src="imagenes/logo2.png" alt="Mi sitio web" class="logo">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="experiencias.html">Experiencias</a>
+            <a href="catalogo.html">Catalogo</a>
+            <a href="contacto.html">Contactanos</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>         
+    </header>
+    <main>
+        <div class="formbold-main-wrapper">
+            <div class="formbold-form-wrapper">
+              <form action="https://formbold.com/s/FORM_ID" method="POST">
+                  <div class="formbold-input-flex">
+                    <div>
+                        <label for="firstname" class="formbold-form-label"> Nombres </label>
+                        <input
+                        type="text"
+                        name="firstname"
+                        id="firstname"
+                        placeholder="Alonso"
+                        class="formbold-form-input"
+                        />
+                    </div>
+                    <div>
+                        <label for="lastname" class="formbold-form-label"> Apellidos </label>
+                        <input
+                        type="text"
+                        name="lastname"
+                        id="lastname"
+                        placeholder="Fernandez"
+                        class="formbold-form-input"
+                        />
+                    </div>
+                  </div>
+          
+                  <div class="formbold-input-flex">
+                    <div>
+                        <label for="email" class="formbold-form-label"> Mail </label>
+                        <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="carlos@gmail.com"
+                        class="formbold-form-input"
+                        />
+                    </div>
+                    <div>
+                        <label for="phone" class="formbold-form-label"> Telefono </label>
+                        <input
+                        type="text"
+                        name="phone"
+                        id="phone"
+                        placeholder="942845251"
+                        class="formbold-form-input"
+                        />
+                    </div>
+                  </div>
+          
+                  <div class="formbold-input-radio-wrapper">
+                      <label for="jobtitle" class="formbold-form-label"> Que estas buscando? </label>
+          
+                      <div class="formbold-radio-flex">
+                        <div class="formbold-radio-group">
+                          <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
+                            Mamparas
+                            <span class="formbold-radio-checkmark"></span>
+                          </label>
+                        </div>
+          
+                        <div class="formbold-radio-group">
+                          <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
+                            Muros Cortina
+                            <span class="formbold-radio-checkmark"></span>
+                          </label>
+                        </div>
+          
+                        <div class="formbold-radio-group">
+                          <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
+                            Duchas
+                            <span class="formbold-radio-checkmark"></span>
+                          </label>
+                        </div>
+          
+                        <div class="formbold-radio-group">
+                          <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" name="jobtitle" id="jobtitle">
+                            Otros
+                            <span class="formbold-radio-checkmark"></span>
+                          </label>
+                        </div>
+                      </div>
+                  </div>
+          
+                  <div>
+                      <label for="message" class="formbold-form-label"> Mensaje </label>
+                      <textarea
+                          rows="6"
+                          name="message"
+                          id="message"
+                          placeholder="Escribe tu consulta"
+                          class="formbold-form-input"
+                      ></textarea>
+                  </div>
+          
+                  <button class="formbold-btn">
+                      Enviar Consulta
+                  </button>
+              </form>
+            </div>
+        </div>
+
+        <footer class="footer-distributed">
+            <div class="footer-left">
+              <h3>Vidrieria<span>Silikan</span></h3>
+              <p class="footer-links">
+                <a href="#" class="link-1">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">Pricing</a>
+                <a href="#">About</a>
+                <a href="#">Faq</a>
+                <a href="#">Contact</a>
+              </p>
+              <p class="footer-company-name">Vidrieria Silikan © 1977</p>
+            </div>
+
+            <div class="footer-center">
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Octavio Muñoz Najar 141</span> Cercado, Arequipa</p>
+              </div>
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+51 946294640</p>
+              </div>
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">delia0029@hotmail.com</a></p>
+              </div>
+            </div>
+      
+            <div class="footer-right">
+              <p class="footer-company-about">
+                <span>Acerca de Nosotros</span>
+                Contáctanos hoy mismo y solicita tu presupuesto sin compromiso!
+              </p>
+              <div class="footer-icons">
+                <a href="https://www.facebook.com/vidrieria.s.eirl"><i class="fab fa-facebook-square icono-redes"></i></a>
+                <a href="https://www.instagram.com/aaronblanco905/"><i class="fab fa-instagram icono-redes"></i></a>
+                <a href="www.linkedin.com/in/aaron-alonso-blanco-ramirez-71b363303"><i class="fab fa-linkedin icono-redes"></i></a>
+                <a href="https://github.com/AaronAlonsoBlancoRamirez"><i class="fab fa-github icono-redes"></i></a>
+              </div>
+            </div>
+        </footer>
+    </main>
+    <script src="scripts/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
